@@ -37,15 +37,15 @@ namespace Task1D
     {
         public static void Addition(int num1, int num2)
         {
-            Console.WriteLine("Addition: " + (num1 + num2));
+            Console.WriteLine("Addition: " + num1 + " + " + num2 + " = " + (num1 + num2));
         }
         public static void Subtraction(int num1, int num2)
         {
-            Console.WriteLine("Subtraction: " + (num1 - num2));
+            Console.WriteLine("Subtraction: " + num1 + " - " + num2 + " = " + (num1 - num2));
         }
         public static void Division(int num1, int num2)
         {
-            Console.WriteLine("Division: " + (num2 / num1));
+            Console.WriteLine("Division: " + num1 + " / " + num2 + " = " + (num2 / num1));
         }
     }
 }

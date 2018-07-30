@@ -17,20 +17,24 @@ namespace Main_MenuTask1
             string userInput;
             do
             {
-                Console.WriteLine("Enter 1 for program 1 OR 2 for program 2 OR 3 for program 3 OR 4 for program 4: ");
+                Console.WriteLine("Enter a number between 1 and 4 for its corresponding program: ");
                 int programNum = int.Parse(Console.ReadLine());
                 switch (programNum)
                 {
                     case 1:
+                        Message(programNum);
                         ProgramTask1A.Main();
                         break;
                     case 2:
+                        Message(programNum);
                         ProgramTask1B.Main();
                         break;
                     case 3:
+                        Message(programNum);
                         ProgramTask1C.Main();
                         break;
                     case 4:
+                        Message(programNum);
                         ProgramTask1D.Main();
                         break;
                     default:
@@ -40,6 +44,10 @@ namespace Main_MenuTask1
                 Console.WriteLine("Enter C to continue looping OR S to stop the program");
                 userInput = Console.ReadLine();
             } while (userInput == "C");
+        }
+        static void Message(int programNum)
+        {
+            Console.WriteLine("{0}{1}{2}","Program ", programNum, " has been chosen.");
         }
     }
 }

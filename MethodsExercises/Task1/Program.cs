@@ -14,7 +14,7 @@ namespace Task1B
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter another number: ");
             int num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine(MultiplyNums(num1, num2));
+            Console.WriteLine(num1 + " * " + num2 + " = " + MultiplyNums(num1, num2));
         }
         public static int MultiplyNums(int num1, int num2)
         {

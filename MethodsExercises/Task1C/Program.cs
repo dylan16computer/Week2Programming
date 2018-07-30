@@ -21,7 +21,7 @@ namespace Task1C
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter a number: ");
             int num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Printing from new class: " + num1 * num2);
+            Console.WriteLine("Printing from new class: " + num1 + " * " + num2 + " = " + (num1 * num2));
         }
     }
 }

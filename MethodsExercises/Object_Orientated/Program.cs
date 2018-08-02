@@ -10,7 +10,6 @@ namespace Object_OrientatedTask1A
     {
         static void Main(string[] args)
         {
-            //Person1 employee1 = new Person1("Dylan");//constructing (inside parenthesis)
             Person1 employee1 = new Person1();
             employee1.Fname = "John";
             employee1.Lname = "Smith";

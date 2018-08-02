@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Object_OrientatedTask1A
+namespace Object_OrientatedTask2A
 {
-    public class Person1
+    public class Person2
     {
         string fName;
         string lName;
@@ -67,6 +67,14 @@ namespace Object_OrientatedTask1A
             {
                 accountNumber = value;
             }
+        }
+        public Person2(string _Fname, string _Lname, int _PayRate, int _Tax, int _AccountNumber)
+        {
+            fName = _Fname;
+            lName = _Lname;
+            payRate = _PayRate;
+            tax = _Tax;
+            accountNumber = AccountNumber;
         }
     }
 }

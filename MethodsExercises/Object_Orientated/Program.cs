@@ -22,14 +22,11 @@ namespace Object_OrientatedTask1A
                 employee1
             };
 
-            foreach(Person1 employee in List1)
-            {
-                Console.WriteLine(employee.Fname);
-                Console.WriteLine(employee.Lname);
-                Console.WriteLine(employee.PayRate);
-                Console.WriteLine(employee.Tax);
-                Console.WriteLine(employee.AccountNumber);
-            }
+            Console.WriteLine(employee1.Fname);
+            Console.WriteLine(employee1.Lname);
+            Console.WriteLine(employee1.PayRate);
+            Console.WriteLine(employee1.Tax);
+            Console.WriteLine(employee1.AccountNumber);
         }
     }
 }

@@ -8,6 +8,21 @@ namespace Object_OrientatedTask1B
 {
     public class Person2
     {
-
+        string name;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = Name;
+            }
+        }
+        public Person2(string _Name)
+        {
+            Name = _Name;
+        }
     }
 }
